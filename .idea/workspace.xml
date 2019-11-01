@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11e23f12-5c71-443a-aacb-d98840ae9e3e" name="Default Changelist" comment="" />
+    <list default="true" id="11e23f12-5c71-443a-aacb-d98840ae9e3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/board/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/css/AllStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/AllStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/js/myjqu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/js/myjqu.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +23,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1R6Hn26a4NIG6e9fS60ND2pmF7E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,5 +74,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
