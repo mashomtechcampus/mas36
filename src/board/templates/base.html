@@ -118,11 +118,11 @@
             <div class="card-header adv-lg-scn  " style="height: 50%;"> 
                 <img src="{{to_advs.AD_profile.image.url}}" class="card-img-top w-25" alt="...">
 
-                <h5 class=" px-2 ">  <a  href="{{to_advs.url_adv}}"> {{to_advs.title}} </a></h5>
+                <h5 class=" px-2 ">  <a class="text-decoration-none " href="{{to_advs.url_adv}}"> {{to_advs.title}} </a></h5>
 
             </div>
             <div class="card-body text-secondary ">
-
+            <p class="text-muted">{{to_advs.description}}</p>
             <a class="text-secondary" href="https://api.whatsapp.com/send?phone={{to_advs.AD_profile.mobile}}" target="_blank" >
             <p style="font-size: 18px;color: #080;" class="card-text ">{{to_advs.AD_profile.mobile}} <i style="font-size: 18px " class="fab fa-whatsapp"></i></p></a>
                            

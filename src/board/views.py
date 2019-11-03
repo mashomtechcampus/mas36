@@ -34,7 +34,7 @@ def boards_topic(request, id):
                 Q(created_by__last_name__icontains=query)
             ).distinct()
 
-        paginator = Paginator(board_list, 10)
+        paginator = Paginator(board_list, 12)
         page = request.GET.get('page')
         try:
             board_list = paginator.page(page)
@@ -130,7 +130,7 @@ def topic_detail(request, id,**kwargs):
         topics_list = Topic.objects.filter(created_by=topic.created_by.id)
         a_boards = Board.objects.filter(active=True)
 
-        paginator = Paginator(topics_list, 12)
+        paginator = Paginator(topics_list, 6)
         page = request.GET.get('page')
         try:
             topics_list = paginator.page(page)
@@ -166,7 +166,7 @@ def designer_works(request, id,**kwargs):
         a_boards = Board.objects.filter(active=True)
         title1 = topic.created_by
 
-        paginator = Paginator(topics_list, 8)
+        paginator = Paginator(topics_list, 6)
         page = request.GET.get('page')
         try:
             topics_list = paginator.page(page)
@@ -207,7 +207,6 @@ class TopicCreate(LoginRequiredMixin,SuccessMessageMixin,CreateView):
     model = Topic
     template_name = 'topic_form.html'
     form_class = Creat_form
-    # fields = ['title','img_url','board']
     success_message = ('تم انشاء الموضوع بنجاح')
 
     # success_url = '/'
@@ -223,9 +222,9 @@ class TopicUpdate(UserPassesTestMixin, LoginRequiredMixin,SuccessMessageMixin, U
 
     model = Topic
     template_name = 'update.html'
+    form_class = Creat_form
     success_message=('تم تحديث الموضوع بنجاح')
 
-    fields = ['title', 'img_url', 'board']
 
     def form_valid(self, form):
         form.instance.created_by = self.request.user
@@ -237,6 +236,13 @@ class TopicUpdate(UserPassesTestMixin, LoginRequiredMixin,SuccessMessageMixin, U
             return True
         else:
             return False
+
+    # def save(self, *args, **kwargs):
+    #     if self.created_dt.now() != 'created_dt':
+    #         self.created_dt = timezone.now()
+    #     return super(TopicUpdate, self).save(*args, **kwargs)
+
+
 
 
 # لحذف الموضوع

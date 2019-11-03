@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e23f12-5c71-443a-aacb-d98840ae9e3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/board/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/templates/topic_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/topic_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/templates/user_topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/templates/user_topics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/AllStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/AllStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/js/myjqu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/js/myjqu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/myweb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/templates/profile_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/templates/profile_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
